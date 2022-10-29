@@ -16,7 +16,6 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 
@@ -44,7 +43,17 @@ table {
     border-spacing: 0;
 }
 
-a{
+li a{color:  #fff;
     text-decoration: none;
-    color: white;
+    outline: none
+}
+
+a {color: #fff;
+    text-decoration: none;
+    outline: none
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color:#fff;
 }
